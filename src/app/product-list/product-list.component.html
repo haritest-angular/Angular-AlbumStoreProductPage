@@ -1,9 +1,7 @@
 <ul>
-  <li *ngFor="let Product of products[]?.Product" >
-    <div class="col-sm-5">
-      <span class="Product-ID">{{Product.id}}</span>
-      <span class="Product-artistName">{{Product.artistName}}</span>
-      <span class="Product-albumName"><button>{{Product.albumName}}</button></span>
-    </div>
+  <li *ngFor="let product of products" >
+    
+      <span class="Product-albumName">{{product.albumName}}</span>
+   
   </li>
 </ul>
